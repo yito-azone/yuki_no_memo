@@ -1,0 +1,25 @@
+.homeButton {
+  display: flex;
+  height: 6.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.memo {
+  color: #FFFFFF;
+  background-color: #1E90FF;
+}
+
+.playground {
+  color: #000000;
+  background-color: #FFA500;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}

@@ -1,0 +1,16 @@
+.homeImageArea {
+  position: relative;
+  width: 21.875rem;
+  height: 23.9375rem;
+  margin: 1.3125rem auto 0;
+}
+
+.homeImageText {
+  position: absolute;
+  top: 8.8125rem;
+  left: 1.25rem;
+  text-align: start;
+  font-size: 1rem;
+  color: #FfFFFF;
+  line-height: 1.5;
+}
