@@ -1,0 +1,23 @@
+.pokemonCard {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  box-shadow: 12px 9px 15px -1px #777777;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.pokemonCard:hover {
+  box-shadow: none;
+}
+
+.pokemonName {
+  font-weight: bold;
+}
+
+.pokemonImage {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+}

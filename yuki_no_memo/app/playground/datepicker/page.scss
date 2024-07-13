@@ -1,0 +1,31 @@
+.custom-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-input {
+  background: white;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-input svg {
+  margin-right: 0.5rem;
+}
+
+.toggle-button {
+  margin-left: 0.5rem;
+  background: #007bff;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

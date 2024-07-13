@@ -4,6 +4,8 @@ import { HomeTemplate } from "./components/template/homeTemplate";
 
 export default function Home() {
   return (
-    <HomeTemplate />
+    <>
+      <HomeTemplate />
+    </>
   )
 }
