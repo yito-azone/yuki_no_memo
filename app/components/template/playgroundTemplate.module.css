@@ -1,0 +1,12 @@
+.playgroundContents {
+  margin-top: 0.6875rem;
+}
+
+.playgroundListsContainer {
+  width: 21.875rem;
+  min-height: 41rem;
+  margin: 0.6875rem auto;
+  background-color: #D9D9D9;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
+}

@@ -1,0 +1,32 @@
+.threadButton {
+  position: relative;
+  margin: 0 auto 1.1875rem;
+  width: 20.5rem;
+  height: 5.75rem;
+  border: 1px solid;
+  border-radius: 0.625rem;
+  background-image: url("/images/react_type_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  text-decoration: none;
+  color: #000000;
+  width: 19rem;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 0 0.75rem;
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}

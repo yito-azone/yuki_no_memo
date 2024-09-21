@@ -1,0 +1,50 @@
+/* ハンバーガーメニュー */
+.hamburgerMenu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #78FF61;
+}
+
+.hamburgerIcon {
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+}
+
+.hamburgerIcon::before,
+.hamburgerIcon::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+}
+
+.hamburgerIcon::before {
+  left: 0;
+  top: -13px;
+}
+
+.hamburgerIcon::after {
+  left: 0;
+  top: 13px;
+}
+
+.menuItems {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  list-style-type: none;
+  z-index: 999;
+}

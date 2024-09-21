@@ -1,0 +1,25 @@
+.titleArea {
+  display: flex;
+  margin: 0 auto;
+  width: 21.875rem;
+  height: 2.9025rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: auto;
+}
+
+.memoColor {
+  color: #FFFFFF;
+  background-color: #1E90FF;
+}
+
+.playgroundColor {
+  color: #000000;
+  background-color: #FFA500;
+}
